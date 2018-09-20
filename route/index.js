@@ -3,7 +3,7 @@ const router = express.Router();
 const axios  = require('axios');
 
 router.route('/webhook')
-	.post( async (req, res) => {
+	.get( async (req, res) => {
 
 		try{
 
